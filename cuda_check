@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Check if CUDA is installed with PyTorch in the current environment
+# Usage: ./cuda_check.sh
+
+# Echo the current environment
+# echo "Current environment:"
+echo "Python version: $(which python)"
+# echo "Python version: $(python --version)"
+
+# Execute "python; import torch; torch.cuda.is_available()"
+python - << END
+import torch
+print("CUDA is available: ", torch.cuda.is_available())
+END

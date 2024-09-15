@@ -65,6 +65,22 @@ It is rather minimal.
 [Here](https://github.com/sasank-desaraju/nvim) is my personal Neovim configuration.
 I use this for everything besides Python notebooks (.ipynb).
 
+### cuda_check
+
+I use PyTorch accelerated with CUDA for machine learning projects on HPG's NVIDIA GPUs.
+I often need to set up new Conda environments and often find that PyTorch is not installed with CUDA properly.
+As I try to get it installed properly, I need to run
+```{python}
+import torch
+
+print(torch.cuda.is_available())
+```
+many times (the last bit it `True` if PyTorch can access CUDA and `False` otherwise).
+
+The file `cuda_check` simplifies this with a little bash script that you are encouraged to open and look at.
+Once you place it in `~/.local/bin/` and enter `source ~/.bashrc` to reload your shell, you can just run `cuda_check` anywhere.
+This will use the Python env that you are currently in and will run those lines of Python for you so you don't have to open a Python interpreter everytime to check.
+
 
 
 For a cheat sheet of terminal commands you may need (Terminal, Git, HPG), see [common commands](common_commands.md).
