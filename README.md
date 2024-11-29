@@ -81,6 +81,11 @@ The file `cuda_check` simplifies this with a little bash script that you are enc
 Once you place it in `~/.local/bin/` and enter `source ~/.bashrc` to reload your shell, you can just run `cuda_check` anywhere.
 This will use the Python env that you are currently in and will run those lines of Python for you so you don't have to open a Python interpreter everytime to check.
 
+### Pixi Python Package Manager
+
+I have been using pixi to replace conda.
+Since I have limited space in my home directory, I symlinked my `~/.cache/` to my personal directory in my advisor's allocation.
+Pixi also allows you to just change its cache directory using the PIXI_CACHE_DIR environment variable but I like the symlink since there are also other programs whose cache I want in a place with more storage (huggingface, etc.).
 
 
 For a cheat sheet of terminal commands you may need (Terminal, Git, HPG), see [common commands](common_commands.md).
