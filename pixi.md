@@ -6,6 +6,8 @@ I have been using pixi to replace conda.
 ## Installation/Setup
 
 1. Install pixi
+Follow the instructions on the (https://pixi.sh/latest/)[documentation].
+When writing this, the instructions were to execute this: `curl -fsSL https://pixi.sh/install.sh | bash`
 
 2. Change your cache location
 Home directories only have 40 GB of storage, which may be exceeded with many packages.
