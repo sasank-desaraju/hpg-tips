@@ -1,7 +1,7 @@
 # Tips for Using the University of Florida HiPerGator Supercomputer
 
 This GitHub repo is to offer tips on using HiPerGator (HPG) for research.
-The tips here may not be suitable for a new beginner as they develop workflows that lean on terminal use.
+The tips here *may not be suitable* for a new beginner as these tips develop workflows that make substantial use of the terminal.
 
 This is maintained by Sasank Desaraju.
 Please see the [official website](https://help.rc.ufl.edu/doc/UFRC_Help_and_Documentation) of the UF Research Computing (UFRC) team for official documentation.
@@ -83,9 +83,8 @@ This will use the Python env that you are currently in and will run those lines 
 
 ### Pixi Python Package Manager
 
-I have been using pixi to replace conda.
-Since I have limited space in my home directory, I symlinked my `~/.cache/` to my personal directory in my advisor's allocation.
-Pixi also allows you to just change its cache directory using the PIXI_CACHE_DIR environment variable but I like the symlink since there are also other programs whose cache I want in a place with more storage (huggingface, etc.).
+(https://prefix.dev/)[Pixi] is a package management solution for Python (and other languages).
+See my tips for using pixi (pixi.md)[here].
 
 
 For a cheat sheet of terminal commands you may need (Terminal, Git, HPG), see [common commands](common_commands.md).
