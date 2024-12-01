@@ -27,6 +27,15 @@ Pixi also allows you to just change its cache directory using the PIXI_CACHE_DIR
     In your "~/.bashrc", add to the bottom `export PIXI_CACHE_DIR="/blue/smith/albert.gator/.pixi_cache"` to set the pixi cache directory that.
     **WARNING:** Do not set the cache dir to a main directory itself (e.g. "/blue/smith/albert.gator"). If you do this and run `pixi clean cache`, it will delete the entirety of that main directory including any other projects there.
 
+## Use
+
+Within the project directory, use `pixi init` to create the project.
+More details are in the official documentation.
+
+For using the terminal from within the project directory, activate the shell with `pixi shell` and deactivate with `exit`.
+
+To use in a SLURM script, use something like in (pixi_train.sh)[this].
+
 ## Resources
 
 (https://pixi.sh/latest/)[Official Documentation]
