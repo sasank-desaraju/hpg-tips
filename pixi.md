@@ -36,6 +36,8 @@ For using the terminal from within the project directory, activate the shell wit
 
 To use in a SLURM script, use something like in [this](pixi_train.sh).
 
+To install PyTorch with CUDA installed, edit your "sources" and "dependecies" to be like in [this sample pixi.toml](pytorch-cuda-pixi.toml).
+
 ## Resources
 
 [Official Documentation](https://pixi.sh/latest/)
