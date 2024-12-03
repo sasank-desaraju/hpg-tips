@@ -6,7 +6,7 @@ I have been using pixi to replace conda.
 ## Installation/Setup
 
 1. Install pixi
-Follow the instructions on the (https://pixi.sh/latest/)[documentation].
+Follow the instructions on the [documentation](https://pixi.sh/latest/).
 When writing this, the instructions were to execute this: `curl -fsSL https://pixi.sh/install.sh | bash`
 
 2. Change your cache location
@@ -34,8 +34,8 @@ More details are in the official documentation.
 
 For using the terminal from within the project directory, activate the shell with `pixi shell` and deactivate with `exit`.
 
-To use in a SLURM script, use something like in (pixi_train.sh)[this].
+To use in a SLURM script, use something like in [this](pixi_train.sh).
 
 ## Resources
 
-(https://pixi.sh/latest/)[Official Documentation]
+[Official Documentation](https://pixi.sh/latest/)

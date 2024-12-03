@@ -83,8 +83,8 @@ This will use the Python env that you are currently in and will run those lines 
 
 ### Pixi Python Package Manager
 
-(https://prefix.dev/)[Pixi] is a package management solution for Python (and other languages).
-See my tips for using pixi (pixi.md)[here].
+[Pixi](https://prefix.dev/) is a package management solution for Python (and other languages).
+See my tips for using pixi [here](pixi.md).
 
 
 For a cheat sheet of terminal commands you may need (Terminal, Git, HPG), see [common commands](common_commands.md).
