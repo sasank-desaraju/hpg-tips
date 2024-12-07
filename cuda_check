@@ -5,7 +5,7 @@
 
 # Echo the current environment
 # echo "Current environment:"
-echo "Python version: $(which python)"
+echo "Python source: $(which python)"
 # echo "Python version: $(python --version)"
 
 # Execute "python; import torch; torch.cuda.is_available()"
