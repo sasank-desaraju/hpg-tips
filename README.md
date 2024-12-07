@@ -88,3 +88,16 @@ See my tips for using pixi [here](pixi.md).
 
 
 For a cheat sheet of terminal commands you may need (Terminal, Git, HPG), see [common commands](common_commands.md).
+
+
+### Shell GPT
+
+[Shell GPT](https://github.com/TheR1D/shell_gpt) is command line tool that gives you LLM assistance directly in the terminal.
+This can be **super useful** for anyone using the terminal - whether beginner or wizard.
+It can generate shell commands, explain them in detail, and more.
+
+It does require you to pay for OpenAI/Anthropic/etc. API credits but it might cost you $2 a semester even if you use it a lot.
+Very worth in my opinion.
+(They have a local LLM version but it's not as robust and may be not worth to set up.)
+
+See my tips [here](sgpt.md).
