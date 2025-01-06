@@ -96,7 +96,8 @@ For a cheat sheet of terminal commands you may need (Terminal, Git, HPG), see [c
 This can be **super useful** for anyone using the terminal - whether beginner or wizard.
 It can generate shell commands, explain them in detail, and more.
 
-It does require you to pay for OpenAI/Anthropic/etc. API credits but it might cost you $2 a semester even if you use it a lot.
+**If you are a UF faculty, student, or staff, you can get $5 per month API credits for free through [Navigator](https://it.ufl.edu/ai/navigator-toolkit/)**.
+Otherwise, it does require you to pay for OpenAI/Anthropic/etc. API credits but it might cost you $2 a semester even if you use it a lot.
 Very worth in my opinion.
 (They have a local LLM version but it's not as robust and may be not worth to set up.)
 
