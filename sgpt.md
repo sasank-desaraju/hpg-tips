@@ -3,6 +3,13 @@
 "A command-line productivity tool powered by AI large language models (LLM).
 This command-line tool offers streamlined generation of shell commands, code snippets, documentation, eliminating the need for external resources (like Google search)."
 
+## Free API Credits (UF people)
+
+UF's Navigator AI program allows you to get $5 API credits for free every month.
+This will almost certainly be enough for you.
+Follow the steps [here](https://it.ufl.edu/ai/navigator-toolkit/) to crete your API key.
+Copy the API key and then you can skip steps 2 and 3 below.
+
 ## Install
 
 1. Follow the [GitHub](https://github.com/TheR1D/shell_gpt) and `pip install shell-gpt`.
