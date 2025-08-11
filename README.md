@@ -81,7 +81,16 @@ The file `cuda_check` simplifies this with a little bash script that you are enc
 Once you place it in `~/.local/bin/` and enter `source ~/.bashrc` to reload your shell, you can just run `cuda_check` anywhere.
 This will use the Python env that you are currently in and will run those lines of Python for you so you don't have to open a Python interpreter everytime to check.
 
-### Pixi Python Package Manager
+### uv Python Package Manager
+[uv](docs.astral.sh/uv/) is a package manager for Python that is popular and much easier than conda or pip.
+It only uses PyPI packages but is suitable for modern deep learning environments since most of the tooling is now available purely through PyPI.
+See my tips for using uv [here](uv.md).
+
+Pixi (below) is still quite nice but uv is probably your best bet for Python only projects.
+Pixi has a better shell system (imo), includes Conda package support, and can be used for other languages such as Rust or C++.
+uv is more optimized for Python and has more GitHub stars (adoption).
+
+### Pixi Python Package Manager (Consider using `uv` above)
 
 [Pixi](https://prefix.dev/) is a package management solution for Python (and other languages).
 See my tips for using pixi [here](pixi.md).
