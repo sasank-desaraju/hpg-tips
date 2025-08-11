@@ -28,9 +28,6 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "numpy>=2.2.6",
-    "torch>=2.8.0",
-    "torchvision>=0.23.0",
 ]
 
 [tool.uv.sources]
@@ -47,8 +44,8 @@ url = "https://download.pytorch.org/whl/cu128"
 explicit = true
 ```
 
-Then, run `uv add torch` and `uv add torchvision` to install them.
-This differs slightly from the uv guide above.
+Then, run `uv add torch` and `uv add torchvision` sequentially to install them.
+This differs slightly from the PyTorch guide on their website.
 
 Now, you should be able to run Python files that require PyTorch with CUDA.
 
