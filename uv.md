@@ -52,7 +52,7 @@ This differs slightly from the uv guide above.
 
 Now, you should be able to run Python files that require PyTorch with CUDA.
 
-You can even run bash files with Python in then, such as `cuda_check` described [here](README.md), using `uv run cuda_check`.
+You can even run bash files with Python in then, such as `cuda_check` described [here](README.md#cuda_check), using `uv run cuda_check`.
 
 
 
