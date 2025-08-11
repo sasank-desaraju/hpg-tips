@@ -19,7 +19,8 @@ For deep learning on HPG, one needs to be careful to install Torch with CUDA sup
 Thus, it is not merely running `uv install torch` as we would for most other packages.
 Fortunately, uv has [a guide](https://docs.astral.sh/uv/guides/integration/pytorch/) for this.
 
-After you run your `uv init` command, I recommend you edit your `pyproject.toml` as such to include sources for `torch` and `torchvision`:
+After you run your `uv init` command, I recommend you edit your `pyproject.toml` as below to include sources for `torch` and `torchvision`.
+You can download an example file [here](uv_pyproject.toml).
 ```toml
 [project]
 name = "my-uv-project"
