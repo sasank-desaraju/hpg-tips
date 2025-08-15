@@ -4,7 +4,7 @@ This GitHub repo is to offer tips on using HiPerGator (HPG) for research.
 The tips here *may not be suitable* for a new beginner as these tips develop workflows that make substantial use of the terminal.
 
 This is maintained by Sasank Desaraju.
-Please see the [official website](https://help.rc.ufl.edu/doc/UFRC_Help_and_Documentation) of the UF Research Computing (UFRC) team for official documentation.
+Please see the [official website](docs.rc.ufl.edu) of the UF Research Computing (UFRC) team for official documentation.
 
 ## Intro
 
