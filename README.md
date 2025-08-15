@@ -111,3 +111,28 @@ Very worth in my opinion.
 (They have a local LLM version but it's not as robust and may be not worth to set up.)
 
 See my tips [here](sgpt.md).
+
+### Marimo
+
+[Marimo](https://docs.marimo.io/) is a new Python Notebook with several advantages over Jupyter Notebooks.
+For example, it uses `.py` files instead of `ipynb` files, which makes it easier to use with version control (Git).
+Also, it is stateless, which means we don't have to worry about running cells out of order and causing confusion.
+
+See my tips [here](marimo.md).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
