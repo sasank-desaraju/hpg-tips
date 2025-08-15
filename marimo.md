@@ -35,13 +35,13 @@ Start the marimo server (with `uv` package management) with
 ```bash
 uv run marimo edit --headless --host 0.0.0.0 --port 8080
 ```
-See [their docs](https://docs.marimo.io/faq/?h=remote#how-do-i-use-marimo-on-a-remote-server) for more info
+See [their docs](https://docs.marimo.io/faq/?h=remote#how-do-i-use-marimo-on-a-remote-server) for more info.
 The port choice here is arbitrary, but make sure to use the same port in the next step.
 For convenience, you can copy [this bash file](server_marimo.md) into your project folder and run it instead typing the command out every time.
 
 ## 4. SSH port forwarding
 
-Open a second terminal window on your local machine and run the following command to forward the port from the HPG compute node to your local machine:
+Open a second terminal window on your local machine and run the following command to forward the port from the HPG compute node to your local machine.
 This creates an environment variable called HPG_NODE on your local machine and then uses it to set up the SSH port forwarding.
 ```bash
 HPG_NODE="$(ssh -p 2222 USERNAME_HERE@hpg.rc.ufl.edu 'squeue -h -u USERNAME_HERE -o %N | head -n1')"
