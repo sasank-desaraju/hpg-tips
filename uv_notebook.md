@@ -42,6 +42,9 @@ You can also download [this .ipynb file](uv_jupyter_notebook.ipynb) and follow a
     - Just use `!uv add <package>` in a notebook cell to add a package to the environment
     - This will update the `pyproject.toml` file and install the package in the environment
 
+- `uv` keeps environment in `.venv/`
+    - VSCode recognizes this immediately and treats it like a good ol' `python -m venv .venv`
+
 - Super fast installs
 
 ## Limitations
