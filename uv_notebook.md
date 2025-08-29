@@ -3,7 +3,7 @@
 
 ## Steps for creating a test notebook
 A lot of this was taken from [their docs](https://docs.astral.sh/uv/guides/integration/jupyter/).
-You can also download [this .ipynb file](uv_jupyter_test.ipynb) and follow along in that.
+You can also download [this .ipynb file](uv_jupyter_notebook.ipynb) and follow along in that.
 
 0. Install `uv` in your base environment if you haven't already
     - `curl -LsSf https://astral.sh/uv/install.sh | sh`
