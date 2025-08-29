@@ -1,0 +1,47 @@
+# Using `uv` in a Jupyter Notebook
+
+
+## Steps for creating a test notebook
+A lot of this was taken from [their docs](https://docs.astral.sh/uv/guides/integration/jupyter/).
+
+0. Install `uv` in your base environment if you haven't already
+    - `curl -LsSf https://astral.sh/uv/install.sh | sh`
+    - confirm installation with `uv --version`
+
+2. Access HPG and enter new project directory with available terminal
+    - This can be VSCode (including through Tunnel) or JupyterLab terminal
+    - Make sure you `cd` into your project directory
+
+3. Start `uv` management by running `uv init`
+
+4. Install `ipykernel` as a development dependency
+    - `uv add --dev ipykernel`
+
+5. (For JupyterLab) Create kernel
+    - `uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=project`
+    - Make sure to replace `project` with your project name
+
+6. Create a new notebook (test.ipynb or so)
+    - Keep an eye on your `pyproject.toml` file to see how it updates as you add packages
+    - Adding packages from CLI:
+        - Using a terminal: `uv add seaborn`
+        - Now you can `import seaborn` in your new notebook
+    - Adding via notebook cell:
+        - In a notebook cell, run `!uv add altair`
+        - Now you can `import altair` in your notebook
+        - Importantly, this lives in your `.venv`
+
+
+
+## Advantages
+- Easy to copy/fork environments
+    - Just copy the `pyproject.toml` to a new project's directory, change the name if you want, and run `uv sync` to create a new environment
+
+- Safely add packages in the notebook with familiar interface similar to `pip install <package>`
+    - Just use `!uv add <package>` in a notebook cell to add a package to the environment
+    - This will update the `pyproject.toml` file and install the package in the environment
+
+- Super fast installs
+
+## Limitations
+- I don't think this can take advantage of the precreated Jupyter kernels on HPG

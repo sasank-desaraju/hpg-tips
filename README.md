@@ -90,6 +90,9 @@ Pixi (below) is still quite nice but uv is probably your best bet for Python onl
 Pixi has a better shell system (imo), includes Conda package support, and can be used for other languages such as Rust or C++.
 uv is more optimized for Python and has more GitHub stars (adoption).
 
+#### Using `uv` in a HPG Jupyter Notebook
+[Here](/uv_notebook.md) is a guide for using `uv` in a Jupyter Notebook on HPG.
+
 ### Pixi Python Package Manager (Consider using `uv` above)
 
 [Pixi](https://prefix.dev/) is a package management solution for Python (and other languages).
