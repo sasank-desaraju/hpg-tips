@@ -5,12 +5,12 @@
 A lot of this was taken from [their docs](https://docs.astral.sh/uv/guides/integration/jupyter/).
 You can also download [this .ipynb file](uv_jupyter_notebook.ipynb) and follow along in that.
 
-0. Install `uv` in your base environment if you haven't already
+1. Access HPG and and use the terminal to install `uv` if you haven't already
     - `curl -LsSf https://astral.sh/uv/install.sh | sh`
     - confirm installation with `uv --version`
 
-2. Access HPG and enter new project directory with available terminal
-    - This can be VSCode (including through Tunnel) or JupyterLab terminal
+2. Create a new project directory and enter it
+    - The terminal can be from VSCode (including through Tunnel) or JupyterLab terminal
     - Make sure you `cd` into your project directory
 
 3. Start `uv` management by running `uv init`
