@@ -22,7 +22,11 @@ You can also download [this .ipynb file](uv_jupyter_notebook.ipynb) and follow a
     - `uv run ipython kernel install --user --env VIRTUAL_ENV $(pwd)/.venv --name=project`
     - Make sure to replace `project` with your project name
 
-6. Create a new notebook (test.ipynb or so)
+6. Create a new notebook (test.ipynb or so) and start your kernel
+    - (VSCode) Select Kernel > Python Environments > your-project-name .venv/bin/python
+    - (JupyterLab) Your kernel name should be in the list of kernels
+
+7. Install packages!
     - Keep an eye on your `pyproject.toml` file to see how it updates as you add packages
     - Adding packages from CLI:
         - Using a terminal: `uv add seaborn`
